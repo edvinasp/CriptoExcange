@@ -22,16 +22,8 @@ public class User {
 		return accountNumber;
 	}
 
-	public String getName() {
-		return name;
-	}
-
 	public double getBalance() {
 		return balance;
-	}
-
-	public void setName(String name) {
-		this.name = name;
 	}
 
 	public void setBalance(double balance) {
@@ -46,8 +38,7 @@ public class User {
 		this.accountNumber = "LT" + (random.nextInt(99999 - 10000) + 10000);
 
 	}
-
-
+	
 	@Override
 	public String toString() {
 		return "User{" +
